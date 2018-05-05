@@ -79,7 +79,7 @@
     }  
  ```
  
-### **move()_**
+### **_move()_**
 > - Implement<br>
 >  
 >> First, get the direction which has most probability, if the Location has more than one, create a random value, to charge the direction. <br>
@@ -158,7 +158,7 @@
     }
 ```
 
-### **goBack()_**
+### **_goBack()_**
 > - Implement<br>
 >  
 >> First, get the Location one step before now(the first element of the arrayList which at the second from tail of stack), and move to it.<br>
