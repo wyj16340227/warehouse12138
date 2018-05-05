@@ -119,7 +119,7 @@ enum Color {
     }  
 ```
 
-### **_showChanelR_**<br>
+### **_showChanelR()_**<br>
 
 > - Implement<br>
 >  
@@ -147,11 +147,11 @@ public class Run {
 
 ------------
 
-## **_ImplementProcessorTest_**
+## **_ImplementProcessorTest()_**
 - Implement<br>
 > 
 > Use the function to compare two picture. Get test picture and get processed picture and compare with goal picture.<br>
-### **_compareImage _**
+### **_compareImage()_**
 > - Implement<br>
 >  
 >> To compare the width and height of two picture. And then get the RGB to compare. (Use `bufferedImage` to compare).<br>
@@ -189,7 +189,7 @@ public class Run {
 	}
 ```
 
-### **_toBufferedImage_**<br>
+### **_toBufferedImage()_**<br>
 
 > - Implement<br>
 >  
@@ -216,7 +216,7 @@ public class Run {
 	}
 ```
 
-### **_test_**
+### **_test()_**
 
 > - Implement<br>
 >  
