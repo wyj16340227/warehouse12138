@@ -1,5 +1,5 @@
 # <center>**_MyImage_**</center>
-## **_ImplementImageIO_**<br>
+## <center>**_ImplementImageIO_**</center><br>
 ### **_`myRead()`_**
 > - Implement<br>
 > 
@@ -82,7 +82,7 @@
 
 --------
 
-## **_ImplementImageProcessor_**<br>
+## <center>**_ImplementImageProcessor_**</center><br>
 
 - Implement<br>
 >
@@ -133,7 +133,7 @@ enum Color {
 
 -----------
 
-## **_Run_**<br>
+## <center>**_Run_**</center><br>
 
 ```
 public class Run {
@@ -147,7 +147,7 @@ public class Run {
 
 ------------
 
-## **_ImplementProcessorTest()_**
+## <center>**_ImplementProcessorTest_**</center>
 - Implement<br>
 > 
 > Use the function to compare two picture. Get test picture and get processed picture and compare with goal picture.<br>
