@@ -226,38 +226,38 @@ public class Run {
 	@Test
 	public void test() {
 		ImplementImageIO io = new ImplementImageIO();
-		Image test1 = io.myRead("bmptest/1.bmp");
+		Image testFir = io.myRead("bmptest/1.bmp");
 		
 		//test first picture
 		//test Blue
 		Image goal = io.myRead("bmptest/goal/1_blue_goal.bmp");
-		assertTrue(compareImage(goal, pro.showChanelB(test1)));
+		assertTrue(compareImage(goal, pro.showChanelB(testFir)));
 		
 		//test Red
 		goal = io.myRead("bmptest/goal/1_red_goal.bmp");
-		assertTrue(compareImage(goal, pro.showChanelR(test1)));
+		assertTrue(compareImage(goal, pro.showChanelR(testFir)));
 		
 		//test Green
 		goal = io.myRead("bmptest/goal/1_green_goal.bmp");
-		assertTrue(compareImage(goal, pro.showChanelG(test1)));
+		assertTrue(compareImage(goal, pro.showChanelG(testFir)));
 		
 		//test Gray
 		goal = io.myRead("bmptest/goal/1_gray_goal.bmp");
-		assertTrue(compareImage(goal, pro.showGray(test1)));
+		assertTrue(compareImage(goal, pro.showGray(testFir)));
 		
 		//test second picture
-		Image test2 = io.myRead("bmptest/2.bmp");
+		Image testSec = io.myRead("bmptest/2.bmp");
 		
 		goal = io.myRead("bmptest/goal/2_blue_goal.bmp");
-		assertTrue(compareImage(goal, pro.showChanelB(test1)));
+		assertTrue(compareImage(goal, pro.showChanelB(testSec)));
 		
 		goal = io.myRead("bmptest/goal/2_red_goal.bmp");
-		assertTrue(compareImage(goal, pro.showChanelR(test1)));
+		assertTrue(compareImage(goal, pro.showChanelR(testSec)));
 		
 		goal = io.myRead("bmptest/goal/2_green_goal.bmp");
-		assertTrue(compareImage(goal, pro.showChanelG(test1)));
+		assertTrue(compareImage(goal, pro.showChanelG(testSec)));
 		
 		goal = io.myRead("bmptest/goal/2_gray_goal.bmp");
-		assertTrue(compareImage(goal, pro.showGray(test1)));
+		assertTrue(compareImage(goal, pro.showGray(testSec)));
 	}
 ```
