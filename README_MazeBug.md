@@ -201,7 +201,7 @@
     }  
 ```
 
-### **act()_**
+### **_act()_**
 > - Implement<br>
 >  
 >> If have not move, predict the direction of the end.<br>
